@@ -1,0 +1,53 @@
+/* Container */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* React MDE Styles */
+  .react-mde {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .react-mde .mde-header {
+    background-color: #f4f4f4;
+  }
+  
+  .react-mde .mde-tabs {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .react-mde .mde-tab {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .react-mde .mde-tab.mde-tab-activated {
+    border-bottom: 2px solid #1a73e8;
+  }
+  
+  .react-mde .mde-textarea-wrapper {
+    padding: 15px;
+  }
+  
+  .react-mde textarea {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 300px;
+    outline: none;
+  }
+  
+  .react-mde .mde-preview {
+    padding: 5px;
+    color: #000; /* Set text color to black */
+  }
+
+  .react-mde .mde-header .mde-tabs :not(.selected){
+    color: #333;
+  }
