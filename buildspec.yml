@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22 # Adjust the version as needed
+    commands:
+      - echo Installing backend dependencies...
+      - cd backend
+      - npm install
+  build:
+    commands:
+      - echo Build phase completed
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
